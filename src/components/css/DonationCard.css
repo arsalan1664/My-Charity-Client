@@ -1,0 +1,43 @@
+.donation-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.donation-card input , .ant-select {
+  font-family: "Poppins", sans-serif;
+background: #fff;
+border-radius: 5px;
+font-size: 15px;
+
+
+&:hover {
+    background: #fff;
+}
+
+}
+
+.ant-select-item-option-content , .ant-select-selection-item{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.donation-card button {
+    font-family: "Poppins", sans-serif;
+    background: #3a0700;    
+    color: #fff;
+    transition: .3s ease-in-out;
+    font-size: 16px;
+    font-weight: 600;
+
+
+    &:hover{
+        background: #fff !important;    
+        color: #3a0700 !important;
+    }
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width:1024px) {
+    .background-image{
+        padding: 0rem 3rem;
+        gap: 20px;
+
+        & br {
+            display: none;
+        }
+    }
+    
+        .card-section{
+            flex-direction: column;
+            gap: 50px;
+        }
+}
+
+@media only screen and (max-width:767px) {
+
+    .background-image{
+        padding: 0rem 2rem;
+        gap: 20px;
+
+
+        & .heading {
+            font-size: 26px;
+        }
+
+    }
+
+    .card-content{
+        width: auto;
+    }
+
+    .card-section , .info-section , .volunteers-section{
+        padding: 2rem;
+
+        & .info-text , .volunteers-text{
+            font-size: 20px;
+        }
+    }
+
+    .charity-header{
+        padding: 1rem 2rem;
+
+        & .logo {
+            font-size: 24px;
+        }
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .background-image{
+        padding: 0rem 2rem;
+        gap: 20px;
+
+
+        & .heading {
+            font-size: 22px;
+        }
+
+    }
+}
