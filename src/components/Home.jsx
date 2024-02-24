@@ -4,13 +4,15 @@ import DonationCard from "./DonationCard";
 import "./css/Home.css";
 import "./css/Media.css";
 import "./css/DonationCard.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate()
   return (
     <div className="container">
       <div className="charity-header">
         <h3 className="logo">Charity</h3>
-        <botton onClick={()=>window.location.assign("/panel")}>admin</botton>
+        
       </div>
       <div className="background-image">
         <h1 className="heading">We can’t do it alone without your support</h1>
@@ -22,6 +24,9 @@ function Home() {
         </p>
         <Button className="donate-btn">
           <a href="#donate-section">Donate Now</a>
+        </Button>
+        <Button className="donate-btn" onClick={() => navigate("/panel")}>
+          Login
         </Button>
       </div>
       <div className="info-section">
