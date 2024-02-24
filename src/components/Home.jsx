@@ -10,6 +10,7 @@ function Home() {
     <div className="container">
       <div className="charity-header">
         <h3 className="logo">Charity</h3>
+        <botton onClick={()=>window.location.assign("/panel")}>admin</botton>
       </div>
       <div className="background-image">
         <h1 className="heading">We can’t do it alone without your support</h1>
